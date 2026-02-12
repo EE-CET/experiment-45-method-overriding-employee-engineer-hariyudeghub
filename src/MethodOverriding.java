@@ -1,12 +1,12 @@
 class Employee {
     void display(){
-        System.out.println("Name of Class is Employee");
+        System.out.println("Name of class is Employee");
     } 
 }
 
 class Engineer extends Employee {
     void display(){
-        System.out.println("Name of Class is Engineer");
+        System.out.println("Name of class is Engineer");
         super.display();
     }
     // TODO: Override display() method
